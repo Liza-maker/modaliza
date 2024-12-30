@@ -1,0 +1,82 @@
+html {
+    background-color: #6acde6;
+    background-position: center top;
+    
+   }
+   h1{
+   text-align: center;
+   color: white;
+   font-size: 300%
+   }
+   table{
+   background-color: #c1e9fc;
+   text-align: center;
+   margin: 20px auto;
+   width: 80%}
+  p {
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 20px;
+  }
+  .retour {
+    position: fixed;
+    bottom: 20px; 
+    width: 100%;
+    text-align: center;
+  }
+  
+  .retour a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    background-color: #c1e9fc;
+    border: 2px solid #A99ABD;
+    border-radius: 5px;
+  }
+  
+  .retour a:hover {
+    background-color: #6acde6;
+    color: white;
+  }
+
+  .vider-panier {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4c4c; /* Rouge pour le bouton de vider le panier */
+    color: white;
+    text-align: center;
+    text-decoration: none; /* Enlever le soulignement */
+    border-radius: 5px; /* Arrondi des coins */
+    border: none; /* Enlever la bordure */
+    cursor: pointer; /* Changer le curseur au survol */
+    margin: 20px 0; /* Espacement autour du bouton */
+}
+
+.vider-panier:hover {
+    background-color: #ff1a1a; /* Couleur rouge foncé au survol */
+}
+
+.passer-commande {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Vert pour le bouton de passage de commande */
+    color: white;
+    text-align: center;
+    text-decoration: none; /* Enlever le soulignement */
+    border-radius: 5px; /* Arrondi des coins */
+    border: none; /* Enlever la bordure */
+    cursor: pointer; /* Changer le curseur au survol */
+}
+
+.passer-commande:hover {
+    background-color: #218838; /* Couleur vert foncé au survol */
+}
+
+.passer-commande i,
+.vider-panier i {
+    margin-right: 8px; /* Espace entre l'icône et le texte */
+}
+
+  
+  

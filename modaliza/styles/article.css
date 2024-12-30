@@ -1,0 +1,96 @@
+html {
+  background-color: #A99ABD;
+  background-position: center top;
+  
+ }
+ h1{
+ text-align: center;
+ color: white;
+ font-size: 350%
+ }
+ table{
+ background-color: #E5D0E3;
+ text-align: center;}
+img {
+  border: 8px solid white;
+  display: block;
+  margin: auto;   
+  width: 200px;
+}
+ p{
+ margin-left: auto;
+ margin-right: auto;
+ width: 500px;
+ text-align: center;
+ color: white;}
+ 
+ .description {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #E5D0E3;
+  border: 2px solid #A99ABD;
+  border-radius: 5px;
+  display: inline-block; 
+  margin-top: 10px;
+}
+a:hover {
+  background-color: #A99ABD;
+  color: white;
+}
+
+/* Style pour le bouton Ajouter au panier */
+input[type="submit"] {
+  background-color: #8A2BE2; /* Couleur violette esthétique */
+  color: white; /* Texte blanc pour contraste */
+  padding: 12px 20px; /* Espacement pour un bouton plus grand */
+  font-size: 16px; /* Taille du texte */
+  font-weight: bold;
+  border: none; /* Enlever les bordures par défaut */
+  border-radius: 25px; /* Arrondir les coins du bouton */
+  cursor: pointer; /* Changer le curseur au survol */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Ajout d'une transition pour l'effet */
+  width: 100%; /* Prendre toute la largeur du conteneur */
+  max-width: 300px; /* Limite la largeur du bouton */
+  margin: 20px auto; /* Centrer le bouton */
+  display: block; /* Faire en sorte que le bouton soit centré */
+}
+
+/* Effet au survol du bouton */
+input[type="submit"]:hover {
+  background-color: #5B0EAC; /* Couleur plus foncée au survol */
+  transform: translateY(-3px); /* Légère montée du bouton */
+}
+
+/* Effet lorsqu'on clique sur le bouton */
+input[type="submit"]:active {
+  background-color: #4A0070; /* Couleur encore plus foncée lors du clic */
+  transform: translateY(1px); /* Légère descente du bouton pour effet de clic */
+}
+
+/* Font Awesome - permet d'utiliser les icônes */
+.fa {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+/* Ajustement des icônes dans les boutons */
+input[type="submit"].fa {
+  display: inline-block;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+input[type="submit"].fa:before {
+  content: "\f07a"; /* Code de l'icône panier */
+  margin-right: 10px;
+  font-size: 18px;
+}
+

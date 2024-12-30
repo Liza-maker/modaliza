@@ -1,0 +1,72 @@
+body {
+    background-color: #f8f9fa; /* Couleur de fond */
+    font-family: Arial, sans-serif; /* Police générale */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Couleur du texte du titre */
+}
+
+table {
+    background-color: #ffffff; /* Couleur de fond du tableau */
+    border-collapse: collapse; /* Collapse border */
+    margin: 20px auto; /* Center the table */
+    width: 80%; /* Width of the table */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+th, td {
+    padding: 12px; /* Padding for table cells */
+    text-align: center; /* Center text */
+    border: 1px solid #ddd; /* Border for table cells */
+}
+
+th {
+    background-color: #6acde6; /* Background color for header */
+    color: white; /* Text color for header */
+}
+
+td {
+    background-color: #c1e9fc; /* Background color for table rows */
+}
+
+strong {
+    color: #333; /* Strong text color */
+}
+
+.action-button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.action-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.retour {
+    position: fixed;
+    bottom: 20px; 
+    width: 100%;
+    text-align: center;
+  }
+.retour a {
+    font-size: 18px; /* Font size */
+    text-decoration: none; /* No underline */
+    color: #333; /* Text color */
+    padding: 10px; /* Padding around the link */
+    background-color: #c1e9fc; /* Background color */
+    border: 2px solid #A99ABD; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.retour a:hover {
+    background-color: #6acde6; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
